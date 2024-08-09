@@ -1,4 +1,3 @@
-
 class HomeModel {
   List<Product>? products;
   int? total;

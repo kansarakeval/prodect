@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import '../screen/home/model/home_model.dart';
 
 class ApiHelper {
-  static ApiHelper helper = ApiHelper._();
+  static ApiHelper helper =  ApiHelper._();
   ApiHelper._();
 
   Future<HomeModel?> getData() async {
